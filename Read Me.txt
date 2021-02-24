@@ -1,0 +1,8 @@
+The login works like amazon pop up
+
+Username :admin
+password:1234
+
+Login works on the homepage!
+================/////////////===========
+

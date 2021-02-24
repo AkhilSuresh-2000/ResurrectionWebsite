@@ -1,0 +1,400 @@
+body{
+    /* background-image: url("../img/ruler_of_the_land_blood_art_forest_101986_1920x1080.jpg");  */
+    margin: 0 auto;
+    background:#1e1f24;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+.heading{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background:#696969;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: solid black;
+    
+}
+
+#container{
+    /* width: 90%; */
+    margin:0 auto;
+    
+}
+
+.heading img{
+    width:30px;
+    display: inline;
+    margin-bottom: 5px;
+
+}
+
+.heading p{
+    display: inline;
+    padding: 15px;
+    
+}
+
+.heading a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    padding: 10px;
+
+    
+}
+
+
+.heading a:hover{
+    background-color: #A9A9A9;
+}
+
+
+.nav-bar{
+    box-sizing: border-box;
+     background:#C0C0C0;
+    color: white;
+    padding: 25px;
+}
+.nav-bar li{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.nav-bar a{
+    text-decoration: none;
+    float: right;
+    padding: 15px;
+    color:white;
+    
+   
+}
+
+.nav-bar a:hover{
+    background-color: #A9A9A9;
+}
+/* .nav-bar a img{
+    width: 10%;
+    float: left;
+    
+} */
+
+
+#logo a img{
+    float:left;
+    width: 120px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+button {
+    background-color: #696969; 
+   color: white;
+   /* padding: 14px 20px; */
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   float:right;
+   font-size: 17px;
+ }
+ 
+ button:hover {
+   background-color: #A9A9A9;
+ }
+ 
+ /* Full-width input fields */
+ input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+ }
+ 
+ /* Extra styles for the cancel button */
+ .cancelbtn {
+   width: auto;
+   padding: 10px 18px;
+   background-color: #f44336;
+ }
+ 
+ /* Center the image and position the close button */
+ .imgcontainer {
+   text-align: center;
+   margin: 24px 0 12px 0;
+   position: relative;
+ }
+ 
+ img.avatar {
+   width: 40%;
+   border-radius: 50%;
+ }
+ 
+ .container {
+   padding: 16px;
+ }
+ 
+ span.psw {
+   float: right;
+   padding-top: 16px;
+ }
+ /* The Modal (background) */
+ .modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   padding-top: 60px;
+ }
+ 
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+   border: 1px solid #888;
+   width: 80%; /* Could be more or less, depending on screen size */
+ }
+ 
+ /* The Close Button (x) */
+ .close {
+   position: absolute;
+   right: 25px;
+   top: 0;
+   color: #000;
+   font-size: 35px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: red;
+   cursor: pointer;
+ }
+ 
+ /* Add Zoom Animation */
+ .animate {
+   -webkit-animation: animatezoom 0.6s;
+   animation: animatezoom 0.6s
+ }
+ 
+ @-webkit-keyframes animatezoom {
+   from {-webkit-transform: scale(0)} 
+   to {-webkit-transform: scale(1)}
+ }
+   
+ @keyframes animatezoom {
+   from {transform: scale(0)} 
+   to {transform: scale(1)}
+ }
+ 
+ /* Change styles for span and cancel button on extra small screens */
+ @media screen and (max-width: 300px) {
+   span.psw {
+      display: block;
+      float: none;
+   }
+   .cancelbtn {
+      width: 100%;
+   }
+ }
+
+ 
+ #footer{
+	clear: both;
+	text-align: center;
+	background-color: lightgrey;
+     overflow: hidden;
+     color: #000;
+}
+
+
+.footerimg{
+  float: left;
+  width: 30%;
+  padding: 15px;
+  overflow: hidden;
+}
+
+
+.head {
+    text-align: center;
+}
+
+.column-1{
+    margin-top: 10%;
+    float:left;
+    color:#000;
+    box-sizing: border-box;
+    max-width: 24%;
+    margin-left: 18%;
+    /* border-right: solid whitesmoke; */
+    color: white;
+    
+  }
+
+  .list ul {
+    
+    list-style: none;
+    
+   
+  }
+  .list-1 ul {
+    
+    list-style: none;
+   
+  }
+
+  
+  .column-1 h3{
+    text-align: center;
+    color: white;
+  }
+ 
+  .column-1 p{
+    text-align: center;
+    color: white;
+  }
+ 
+
+  .column-1 li{
+    text-decoration: none;
+    padding: 10px;
+  }
+
+
+ .showcase{
+     /* position: relative;*/
+     clear: both; 
+    width: 80%;
+     padding: 0;
+     overflow: hidden;
+     margin: 0 auto;
+     color: antiquewhite;
+    
+     
+
+    
+ }
+
+ .nav-bar-2{
+     color: white;
+     text-align: center;
+     margin-top: 50px;
+     margin-right: 2%;
+    
+    
+ }
+
+ .nav-bar-2 ul{
+    list-style: none;
+ }
+
+ .nav-bar-2 li{
+     display: inline;
+     padding: 10px;
+     list-style: none;
+    
+ }
+
+ .nav-bar-2 a{
+    text-decoration: none;
+    color: white;
+  
+ }
+
+
+ .nav-bar-2 a:hover{
+     background: red;
+ }
+
+
+ .column-2{
+    margin-top: 10%;
+    float:left;
+    color:#000;
+    box-sizing: border-box;
+    max-width: 24%;
+    margin-left: 7%;
+    /* border-right: solid whitesmoke; */
+    color: #fefefe;
+    
+  }
+
+  .list ul {
+   
+    list-style: none;
+   
+  }
+
+  
+  .column-2 h3{
+    text-align: center;
+  }
+ 
+  .column-2 p{
+    text-align: center;
+  }
+ 
+
+  .column-2 li{
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .column-3{
+    margin-top: 10%;
+    
+    color:#000;
+    box-sizing: border-box;
+    max-width: 24%;
+    margin-left: 7%;
+    /* border-right: solid whitesmoke; */
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
+
+  .list ul {
+   
+    list-style: none;
+   
+  }
+
+  
+  .column-3 h3{
+    text-align: center;
+  }
+ 
+  .column-2 p{
+    text-align: center;
+  }
+ 
+
+  .column-3 li{
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .btnCart{
+    text-align: center;
+    
+  }

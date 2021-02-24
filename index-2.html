@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Ressurection Pcs Inc</title>
+  <link rel="stylesheet" type="text/css" href="./css/style2.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="heading">
+
+      <a href="index-12.html"><img src="./img/shopping-cart (1).png"></a>
+      <p>24 X 7 support </p>
+      <img src="icons8-outgoing-call-64.png" alt="image not found">
+      <p style="color:#DC143C ;">1-875-674-0400 (US & CA)</p>
+
+     
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    </div>
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" >
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+          <img src="./img/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="email" placeholder="Enter Username" name="uname" required class="email" >
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required class="passwd">
+
+          <button type="submit"  class="sbt" > Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+
+
+    <div id="logo">
+      <a href="./index.html"><img src="logo2.png"></a>
+    </div>
+
+    <div class="nav-bar">
+      <ul>
+        <li><a href="./index-2.html">Desktops</a></li>
+        <li><a href="./index-3.html">Workstation Desktops</a></li>
+        <li><a href="./index-4.html">Laptops</a></li>
+        <li><a href="./index-7.html"> Worskstation Laptops</a></li>
+        <li><a href="./index-10.html">Support</a></li>
+        <li><a href="./index.html">Home</a></li>
+       
+      </ul>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <input type="text"  name="search"  id="myinput" placeholder="Search">
+  </div>
+
+
+  <div id="wrapper">
+
+    <div id="cloumns">
+      <div class="column-1">
+        <h3  id="heading"> Cyclops</h3>
+        <p><strong>Samll Form Factor</strong></p>
+        <p id="price" >Starting at $500</p>
+        <div class="btnCart" >
+          <input type="button" value="Add to Cart" class="btnCart"  onclick="added()" >
+          </div>
+        <img src="./img/blk_400.png" alt="">
+        <ul>
+          <li>Up to an AMD Ryzen 7 2700X, Intel Core i9-9900K, or Intel Core i9-9900X CPU</li>
+          <li>FROSTBYTE CPU liquid cooling</li>
+          <li>Up to a single NVIDIA TITAN RTX GPU</li>
+          <li>Up to 64GB of DDR4 RAM 3200MHz</li>
+          <li>Multiple storage options available including M.2 PCIe SSD, SSD, HDD, and more</li>
+
+        </ul>
+        <p></p>
+
+      </div>
+
+
+
+      <div class="column-1">
+        <h3 id="heading">Infinity</h3>
+        <p><strong> To Infinity and beyond</strong></p>
+        <p id="price" >Starting at $700</p>
+        <div class="btnCart" >
+          <input type="button" value="Add to Cart" class="btnCart"  onclick=" Cartadd()" >
+          </div>
+        <img src="./img/wht_400.webp" alt="">
+        <ul>
+          <li>Up to an AMD Ryzen 7 2700X, Intel Core i9-9900K, or Intel Core i9-9900X CPU</li>
+          <li>FROSTBYTE CPU liquid cooling</li>
+          <li>Up to dual NVIDIA GeForce RTX 2080 Ti GPUs</li>
+          <li>Up to 64GB of DDR4 RAM 3200MHz</li>
+          <li>Multiple storage options available including M.2 PCIe SSD, SSD, HDD, and more</li>
+
+        </ul>
+
+      </div>
+
+      <div class="column-1">
+        <h3  id="heading" >Infinity Pro </h3>
+        <p><strong> Infinity Gen2</strong></p>
+        <p id="price" >Starting at $789</p>
+        <div class="btnCart" >
+          <input type="button" value="Add to Cart" class="btnCart"  onclick="added()" >
+          </div>
+        <img src="./img/blk_400.webp" alt="">
+        <ul>
+          <li> Variable Mounting for 4 different motherboard orientations</li>
+          <li>Up to an AMD Ryzen 7 2700X, Intel Core i9-9900K, or Intel Core i9-9900X CPU</li>
+          <li>Up to CRYOGENIC hardline liquid cooling for CPU</li>
+          <li>Up to dual NVIDIA GeForce RTX 2080 Ti GPUs</li>
+          <li>Up to 128GB of DDR4 RAM 3200MHz</li>
+          <li>Multiple storage options available including M.2 PCIe SSD, SSD, HDD, and more</li>
+
+        </ul>
+
+      </div>
+      <div class="column-1">
+        <h3   id="heading" >Falcon </h3>
+        <p><strong> To Infinity and beyond</strong></p>
+        <p id="price" >Starting at $850</p>
+        <div class="btnCart" >
+          <input type="button" value="Add to Cart" class="btnCart"  onclick="added()" >
+          </div>
+        <img src="./img/blk_400 (1).webp" alt="">
+        <ul>
+
+          <li>Up to an AMD Ryzen 7 2700X, Intel Core i9-9900K, or Intel Core i9-9900X CPU</li>
+          <li>FROSTBYTE CPU liquid cooling</li>
+          <li>Up to dual NVIDIA GeForce RTX 2080 Ti GPUs</li>
+          <li>Up to 64GB of DDR4 RAM 3200MHz</li>
+          <li>Multiple storage options available including M.2 PCIe SSD, SSD, HDD, and more</li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div id="footer"> 
+
+      <div class="footerimg">
+        <a href="#"><img src="./img/icons8-facebook-50.png" width="10%"></a>
+        <a href="#"><img src="./img/icons8-instagram-100.png" alt="" width="10%"></a>
+        <a href="#"><img src="./img/icons8-twitter-50.png" width="10%"></a>
+        <a href="#"><img src="./img/icons8-youtube-squared-50.png" alt="" width="10%"></a>
+      </div>
+      <h2> &copy;2019 Ressurection Inc </h2>
+
+    </div>
+</body>
+
+<script defer src="./js/main-2.js"></script>
+<script src="./js/cart.js"></script>
+
+
+</html>

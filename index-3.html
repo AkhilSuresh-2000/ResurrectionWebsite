@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Ressurection Pcs Inc</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles3.css">
+  <style>
+    body {
+      font-family: Arial;
+      font-size: 17px;
+      padding: 8px;
+      color: black;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+
+    .col-25 {
+      -ms-flex: 25%;
+      /* IE10 */
+      flex: 25%;
+    }
+
+    .col-50 {
+      -ms-flex: 50%;
+      /* IE10 */
+      flex: 50%;
+    }
+
+    .col-75 {
+      -ms-flex: 75%;
+      /* IE10 */
+      flex: 75%;
+    }
+
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+      width: 80%;
+      display: none;
+    }
+
+    .container {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+    }
+
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: red;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    a {
+      color: #2196F3;
+    }
+
+    hr {
+      border: 1px solid lightgrey;
+    }
+
+    span.price {
+      float: right;
+      color: grey;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+    @media (max-width: 800px) {
+      .row {
+        flex-direction: column-reverse;
+      }
+
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .carts {
+      width: 500px;
+      height: 500px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+    <div class="heading">
+
+      <a href="index-12.html"><img src="./img/shopping-cart (1).png" onclick="opencart()"></a>
+      <p>24 X 7 support </p>
+      <img src="icons8-outgoing-call-64.png" alt="image not found">
+      <p style="color:#DC143C ;">1-875-674-0400 (US & CA)</p>
+
+     
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    </div>
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+          <img src="./img/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+
+
+    <div id="logo">
+      <a href="./index.html"><img src="logo2.png"></a>
+    </div>
+
+    <div class="nav-bar">
+      <ul>
+        <li><a href="./index-2.html">Desktops</a></li>
+        <li><a href="./index-3.html">Workstation Desktops</a></li>
+        <li><a href="./index-4.html">Laptops</a></li>
+        <li><a href="./index-7.html"> Worskstation Laptops</a></li>
+        <li><a href="./index-10.html">Support</a></li>
+        <li><a href="./index.html">Home</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="head">
+    <h2>Choose Your Workstation Desktop or HPC</h2>
+    <p>FULL TOWER, MID TOWER, SMALL FORM FACTOR, OR RACKMOUNT CONFIGURATIONS</p>
+  </div>
+  <div id="cloumns">
+    <div class="column-1">
+      <h3>S class</h3>
+      <p><strong>Samll Form Factor</strong></p>
+      <p>
+        <font color="red">Maximum Productivity, Minimum Space</font>
+      </p>
+      <p  id="price" >$800</p>
+
+       <div class="btnCart" >
+      <input type="button" value="Add to Cart" class="btnCart">
+    </div>
+
+      <img src="./img/s-class-system-image.webp" alt="">
+      <div class="list">
+        <ul>
+          <li>Premium small-form factor options</li>
+          <li>Can placed vertically or horizontally</li>
+          <li>Designed to be easily transported</li>
+          <li>Supports a single standard-sized desktop graphics card</li>
+          <li>Industry Leading Free 24/7 Lifetime Support Based in the United States and Canada </li>
+
+        </ul>
+      </div>
+
+
+    </div>
+
+
+    <div id="columns">
+      <div class="column-1">
+        <h3 id="heading">M-Class</h3>
+        <p><strong>Mid Tower</strong></p>
+        <p>
+          <font color="red">Pro-Level Performance Without Breaking the Bank</font>
+        </p>
+        <p  id="price" >$900</p>
+
+        <div class="btnCart" >
+        <input type="button" value="Add to Cart" class="btnCart">
+        </div>
+
+
+
+        <img src="./img/m-class-system-image.webp" alt="">
+        <div class="list">
+          <ul>
+            <li>Premium mid tower options</li>
+            <li>Can be placed vertically or horizontally</li>
+            <li>Tool-less tempered glass side panels</li>
+            <li>Supports up to two standard-sized graphics cards</li>
+            <li>Industry Leading Free 24/7 Lifetime Support Based in the United States and Canada </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="column-1">
+        <h3 id="heading">Infinity Pro </h3>
+        <p><strong> Infinity Gen2</strong></p>
+        <p id="price" >$1000</p>
+        <p>
+          <font color="red">Full Workstation Power & State-of-the-Art Design</font>
+        </p>
+
+        <div class="btnCart" >
+        <input type="button" value="Add to Cart" class="btnCart">
+      </div>
+        
+        <div class="list">
+          <img src="./img/l-class-system-image.webp" alt="">
+
+          <ul>
+            <li> Variable Mounting for 4 different motherboard orientations</li>
+            <li>Easy access tempered glass or aluminum side panels</li>
+            <li>Lower bay expansion for extra storage drives</li>
+            <li>Supports up to four standard-sized graphics cards</li>
+            <li>Industry Leading Free 24/7 Lifetime Support Based in the United States and Canada </li>
+
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="showcase">
+      <p>Computer animation professionals rendering lifelike characters, game developers creating rich, elaborately
+        detailed worlds, videographers shooting and editing ultra HD 4K video,
+        these are a few examples of the many professionals that require the power of workstation custom desktops to
+        deliver the performance where it counts.</p>
+
+      <p>At Ressurection PC, we know these professionals seek robust solutions that are as customizable as they are
+        powerful. Our options include full tower, mid tower, small form
+        factor, and rackmount configurations, all of which can be configured to utilize the latest industry-leading
+        components including Intel Xeon processors and NVIDIA’s
+        Quadro Graphics Technology. These custom PCs are not only fully customizable, they provide a tremendous amount
+        of flexibility, allowing customers to choose options
+        such as single or dual GPU, premium case options, and even cosmetic options such as different color schemes.</p>
+
+      <p>Whether you need a custom workstation desktop or an HPC, our PCs are ready to deliver the power and performance
+        necessary to help you get the project done efficiently
+        and professionally. With our free lifetime U.S.-based 24/7 technical support, you can rest assured we’re always
+        ready to answer your question so you can focus on being
+        productive.</p>
+    </div>
+
+   
+    <div id="footer">
+
+      <div class="footerimg">
+        <a href="#"><img src="./img/icons8-facebook-50.png" width="10%"></a>
+        <a href="#"><img src="./img/icons8-instagram-100.png" alt="" width="10%"></a>
+        <a href="#"><img src="./img/icons8-twitter-50.png" width="10%"></a>
+        <a href="#"><img src="./img/icons8-youtube-squared-50.png" alt="" width="10%"></a>
+      </div>
+      <h2> &copy;2019 Ressurection Inc </h2>
+
+    </div>
+    
+    <script src="./js/cart.js"></script>
+
+    <!-- <script src="./js/mai-1.js"> -->
+
+    </script>
+</body>
+
+</html>
